@@ -1,0 +1,123 @@
+<!doctype html>
+    <html manifest="manifest.appcache">
+    <head>
+
+        
+        <meta charset="utf-8">
+        <meta name="viewport" 
+              content="width=device-width initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="apple-mobile-web-app-capable" content="yes"> <!--iPhone eraldi djeela, avaneb full-screenis nagu tavaline app-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <meta name="apple-mobile-web-app-status-bar-style" content = "black-translucent"> <!-- Peaks muutuma mustaks kui avada bookmarkina iPhonel -->
+        
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+
+        <link rel="stylesheet" href="MovieApp.css">
+        
+    </head>
+    <body onload="popularMovies()">
+ <!--PageONE ehk Popular Movies-->
+<div data-role="page" id="pageone">
+  <div data-role="header" data-position="fixed">
+    <h1>Movie App</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" data-icon="home">Popular Movies</a></li>
+        <li><a href="#pagetwo" data-icon="arrow-r">Watchlist</a></li>
+        <li><a href="#pagethree" data-icon="search">Search</a></li>
+      </ul>
+      
+    </div>
+  </div>
+<div data-role="content" id="matsioon" class="ui-content">
+
+
+<script type="text/javascript"></script>
+ </div>
+ 
+</div> 
+<!--ENDOFPageONE-->       
+
+<!--PageTWO ehk Watchlist-->
+<div data-role="page" id="pagetwo">
+  <div data-role="header" data-position="fixed">
+    <h1>Movie App</h1>
+    <div data-role="navbar" data-position="fixed">
+      <ul>
+        <li><a href="#pageone" data-icon="home">Popular Movies</a></li>
+        <li><a href="#pagetwo" data-icon="arrow-r">Watchlist</a></li>
+        <li><a href="#pagethree"  data-icon="search">Search</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="main" class="ui-content">
+<form class="ui-filterable">
+      <input id="myyFilter" placeholder="Filter Movies..." data-type="search">
+</form>
+<ul data-role="listview" data-filter="true"  id= "demomine" data-input="#myyFilter" data-autodividers="true" data-inset="true" class="ui-responsive"></ul>
+
+     
+
+
+<script type="text/javascript"></script>
+ </div>
+  
+</div> 
+<!--ENDOFPageTWO-->
+
+<!--PageTHREE ehk Otsing-->
+<div data-role="page" id="pagethree">
+  <div data-role="header" data-position="fixed">
+    <h1>Movie App</h1>
+    <div data-role="navbar" data-position="fixed">
+      <ul>
+        <li><a href="#pageone" data-icon="home">Popular Movies</a></li>
+        <li><a href="#pagetwo" data-icon="arrow-r">Watchlist</a></li>
+        <li><a href="#pagethree" data-icon="search">Search</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="main" class="ui-field-contain">
+    <div id="muuviSearch">Search movies</div>
+    <p> <input id="searchValue" type="text">
+                <datalist id="searches"></datalist></p>  
+                 <div data-role="main" class="ui-content">
+                 <ul data-role="listview" data-filter="true"  id= "info" data-input="#myyFilter" data-autodividers="true" data-inset="true" class="ui-responsive"></ul>
+   
+                 
+                 <script type="text/javascript"></script>
+ </div>
+  </div>
+     
+</div> 
+<!--ENDOFPageTHREE-->
+
+<!--PageFOUR ehk Detailvaade-->
+<div data-role="page" data-dialog="true" id="pagefour">
+  <div data-role="header">
+    <h1>Movie Specifics</h1>
+  </div>
+
+
+<div data-role="main" class="ui-content">
+<p id="trailer"></p>
+</div>
+  <div data-role="main" class="ui-content">
+    
+    <p id="specs"></p>
+    
+  </div>
+
+ 
+</div> 
+<!--ENDOFPageFOUR-->
+
+<script src="MovieApp.js"></script>
+    </body>
+</html>

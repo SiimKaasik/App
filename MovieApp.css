@@ -1,0 +1,143 @@
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:absolute;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+.button:hover  {
+
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+#array{
+    max-width: 100px;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    margin-left: -50px; 
+    
+button{
+    max-width: 100px;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    margin-left: -50px; 
+}
+    
+}
+#matsioon{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+}
+
+#demomine{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+}
+
+#info{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+}
+
+
+#deleteButton{
+    max-width: 100px;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    margin-left: -50px; 
+    
+}
+
+#searchButton{
+    max-width: 100px;
+    width: 100px;
+    height: 50px;
+    left: 50%;
+    margin-left: -50px;  
+    
+}
+#muuviSearch{
+     margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+}
+
+form{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.ui-butn{
+
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Lucida Grande", Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    font-variant: normal;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+    text-align: center!important;
+    letter-spacing: 0.3em;
+    
+}
